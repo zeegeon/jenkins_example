@@ -1,6 +1,7 @@
-def add(a, b):
-    """이 함수는 a와 b를 더한 뒤 결과를 반환하는 함수입니다."""
-    return a + b
- 
-x = add(10, 20)       # 함수를 호출해도 독스트링은 출력되지 않음
-print(x)
+n = int(input("Amount of numbers : "))
+final_sum = 0
+for i in range(0,n):
+    s = float(input("Enter numbers:"))
+    final_sum = final_sum + s
+
+print(final_sum)
